@@ -9,15 +9,19 @@ make time for doing all job....
 
 
 
-to create the virtual environment:
+to create the virtual environment(window's users):
+```sh
+python -m venv env
+pip install -r requirements.txt
+```
 
-$ python -m venv env
-$ pip install -r requirements.txt
-
-for activate environment use activate.bat:
-$env/scripts/activate.bat
-
-
+for activate environment use activate.bat(window's users):
+```sh
+env/scripts/activate.bat
+```
 
 for use the program:
-$python theme2_final
+
+```sh
+python theme2_final
+```
