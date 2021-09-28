@@ -7,7 +7,9 @@ it downloads all the images of all the books classified by category in the pictu
 make time for doing all job....
 
 one_category.py : scrape only the category "food and drink"
+
 theme2_final.py : scrape all with images
+
 main_with_images.py : offers the user to choose a category to scrape or scrape the entire site
 
 
