@@ -215,7 +215,7 @@ for listo_category in list_of_liste_of_urlCategory_of_book:
 
             # solved files names problems
             def replace_file_name(x):
-                annoying_chars = '^*.\/":?<>'
+                annoying_chars = '^*./":?<>'
                 for char in annoying_chars:
                     x = x.replace(char, '_')
                 return x
